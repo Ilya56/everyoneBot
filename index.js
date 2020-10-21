@@ -1,7 +1,7 @@
 const Telegraf = require('telegraf');
 const Core = require('./lib/core');
 
-const bot = new Telegraf('1399468616:AAHOmx4JLMR5TEksLsYLVsbtyvPu8frHfro');
+const bot = new Telegraf(process.env.BOT_TOKEN);
 
 new Core(bot);
 

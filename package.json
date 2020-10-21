@@ -10,5 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "telegraf": "^3.38.0"
+  },
+  "engines": {
+    "node": "11.x"
   }
 }
