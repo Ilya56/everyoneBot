@@ -7,3 +7,5 @@ new Core(bot);
 
 bot.launch();
 console.log('Launch bot');
+
+require('./lib/server')();
